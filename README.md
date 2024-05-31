@@ -32,3 +32,5 @@ Ce capteur est ensuite connnecté à un arduino. Divers élements sont ajoutés 
 Un code Arduino est implémenté sur un ArduinoUno. Ce code permet d'afficher les valeurs des résistances des capteurs en fonction de l'angle du capteur. 
 
 ## 5) Lapplication 
+
+## 6) La DataSheet 
