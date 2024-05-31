@@ -13,7 +13,7 @@ Projet 4GP du capteur au banc de test en open source hardware
 ## 1) Contexte
 Dans le cadre de l'UE "Du capteur au banc de test en Open Source Hardware", nous avons été amenés à réaliser un capteur de déformation low-tech à base de graphite. Le fonctionnement de ce capteur repose sur la variation de résistance engendrée par la déformation du matériau. La physique sous-jacente à cette variation de résistance provient du déplacement des électrons par effet tunnel entre les nanoparticules de graphite. Lorsqu'une contrainte mécanique est appliquée, la distance entre les nanoparticules varie, ce qui modifie la conductivité du graphite. Cette modification entraîne ainsi une variation de la résistance du capteur.
 
-![](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-Bresson-Ronne/blob/main/Camera Roll/Capture.PNG)](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-Bresson-Ronne/blob/main/Photos%20et%20images/Capture.jpg)
+![](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-Bresson-Ronne/blob/main/Photos%20et%20images/Capture.jpg)
 
 
 ## 2) L'électronique Analogique
