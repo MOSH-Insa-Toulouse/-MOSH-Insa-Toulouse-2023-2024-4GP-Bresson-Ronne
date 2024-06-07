@@ -24,13 +24,41 @@ Ce capteur est ensuite connnecté à un arduino. Divers élements sont ajoutés 
 
 
 ## 2) L'électronique Analogique
+Une partie importante de la chaîne d’acquisition pour notre capteur réside dans le
+conditionnement du signal délivré par le capteur, c’est-à-dire l’amplifier et le filtrer
+pour pouvoir l’exploiter. Afin d’utiliser les capacités de la carte Arduino au maximum
+(en pleine échelle), le gain du circuit d’amplification est variable grâce à la résistance
+R2, ajustée par un potentiomètre digital.<br>
+Le filtrage est effectué à plusieurs niveaux (avant et après amplification). Il y a donc 3
+étages, chacun avec une fréquence de coupure différente, pour limiter le bruit au
+maximum. Le circuit est modélisé dans LTSpice, afin d’effectuer des simulations. Il
+faut noter qu’ici on peut se permettre d’avoir un filtrage fort à des fréquences très
+faibles car à priori notre capteur ne sera pas utilisé à plus qu’environ 1Hz. Les
+résultats obtenus par les simulations et un exemple de simulation (Diagramme de
+Bode pour un étage sont présentés sur les figures suivantes. Le circuit LTSpice est à
+trouver dans le dossier « électronique analogique ».
 
 ## 3) Kicad
+Afin de réaliser en pratique le circuit modélisé dans LTSpice, ainsi qu’ajouter tous les
+composants liés à notre chaîne d’acquisition et aux capteurs, le logiciel KiCad est
+utilisé. Il permet à partir d’un schéma électrique, créé dans un premier temps, et de
+l’ajout des empreintes et modèles 3D des différents composants, de modéliser le
+PCB et ses pistes électroniques, et d’en obtenir un modèle 3D. Ces documents sont
+disponibles dans le dossier « KiCad ». Avec l’aide de Catherine Crouzet, nous avons
+ensuite pu fabriquer notre PCB y souder les composants pour tester toute notre
+chaîne d’acquisition, qui s’est avérée fonctionnelle directement.
 
 ## 4) Le code Arduino
 
 Un code Arduino est implémenté sur un ArduinoUno. Ce code permet d'afficher les valeurs des résistances des capteurs en fonction de l'angle du capteur. 
 
 ## 5) Lapplication 
+L’application Android, créée avec le MIT App Inventor, permet de dialoguer via Bluetooth
+(bouton de connexion à activer) avec la carte Arduino pour obtenir les valeurs de
+résistance/angle fournies par le capteur. L’utilisateur peut choisir un nombre de mesures à
+effectuer, le moment pour les lancer, puis ces mesures sont affichées en live sur un
+indicateur numérique, un graphique, et exportées dans un tableur afin de les exploiter au
+mieux. Un fichier APK est téléchargeable dans le dossier « Application Android »
 
 ## 6) La DataSheet 
+La data sheet du capteur est disponible ici.
