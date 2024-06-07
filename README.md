@@ -69,7 +69,7 @@ chaîne d’acquisition, qui s’est avérée fonctionnelle directement.
 
 ## 4) Le code Arduino
 
-Un code Arduino est implémenté sur un ArduinoUno. Ce code permet d'afficher les valeurs des résistances des capteurs en fonction de l'angle du capteur. 
+Un code Arduino est implémenté sur un ArduinoUno. Le code permet d'afficher les valeurs de résistance sur l'écran oled et de choisir quel capteur est affiché via un encodeur rotatoire. Les valeurs de résitances sont aussi disponibles sur le serialmonitor ainsi que sur le téléphone. 
 
 ## 5) Lapplication 
 L’application Android, créée avec le MIT App Inventor, permet de dialoguer via Bluetooth
@@ -87,4 +87,4 @@ mieux. Un fichier APK est téléchargeable dans le dossier « Application Andro
 </p>
 
 ## 6) La DataSheet 
-La data sheet du capteur est disponible ici.
+La data sheet du capteur est disponible ici. https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-Bresson-Ronne/blob/main/DataSheet/datasheetCapteurBressonRonne.pdf
