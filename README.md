@@ -38,6 +38,18 @@ résultats obtenus par les simulations et un exemple de simulation (Diagramme de
 Bode pour un étage sont présentés sur les figures suivantes. Le circuit LTSpice est à
 trouver dans le dossier « électronique analogique ».
 
+<p align="center">
+  <img src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-Bresson-Ronne/blob/main/Photos%20et%20images/BodeAOP.png" alt="Caractéristiques de l'AOP">
+  <br>
+  <i>Caractéristiques de l'AOP</i>
+</p>
+
+<p align="center">
+  <img src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-Bresson-Ronne/blob/main/Photos%20et%20images/BodeAOPSch%C3%A9ma.png" alt="Diagramme de Bode du premier étage de l'AOP">
+  <br>
+  <i>Diagramme de Bode du premier étage de l'AOP</i>
+</p>
+
 ## 3) Kicad
 Afin de réaliser en pratique le circuit modélisé dans LTSpice, ainsi qu’ajouter tous les
 composants liés à notre chaîne d’acquisition et aux capteurs, le logiciel KiCad est
@@ -47,6 +59,13 @@ PCB et ses pistes électroniques, et d’en obtenir un modèle 3D. Ces documents
 disponibles dans le dossier « KiCad ». Avec l’aide de Catherine Crouzet, nous avons
 ensuite pu fabriquer notre PCB y souder les composants pour tester toute notre
 chaîne d’acquisition, qui s’est avérée fonctionnelle directement.
+
+<p align="center">
+  <img src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-Bresson-Ronne/blob/main/Photos%20et%20images/Sch%C3%A9maKiCad.png" alt="Schéma du PCB réalisé sur KiCad">
+  <br>
+  <i>Schéma du PCB réalisé sur KiCad</i>
+</p>
+
 
 ## 4) Le code Arduino
 
