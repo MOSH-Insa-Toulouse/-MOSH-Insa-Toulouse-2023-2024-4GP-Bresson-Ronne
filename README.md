@@ -79,5 +79,12 @@ effectuer, le moment pour les lancer, puis ces mesures sont affichées en live s
 indicateur numérique, un graphique, et exportées dans un tableur afin de les exploiter au
 mieux. Un fichier APK est téléchargeable dans le dossier « Application Android »
 
+
+<p align="center">
+  <img src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-Bresson-Ronne/blob/main/Photos%20et%20images/CodeAppli.png" alt="Schéma de l'application Android">
+  <br>
+  <i>Schéma de l'application Android</i>
+</p>
+
 ## 6) La DataSheet 
 La data sheet du capteur est disponible ici.
